@@ -7,7 +7,7 @@ let tentarAtivar = 1;
 function escreverErvaDaninhasNaTiela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.4});
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.25});
 }
 
 function mostrarBoasVindas() {
